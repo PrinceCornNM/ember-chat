@@ -16,12 +16,12 @@ Messages should have at least 3 properties:
 
 ## Usage
 
-The ember-chat component should be passed:
-
-  * an array like object of messages,
-  * a function `changeStep` to send a message that accepts the text of the message,
-  * the receiving user's name
-  * the receiving user's avatar image url.
+ * Component: `ember-chat` - component that takes some parameters and provides simple ui for messaging
+   * Parameters:
+     * messages - a models for messages
+     * sendMessage - action that bubbles up and tells the backend to send a message
+     * name - name of the recipient for the ui
+     * avatarUrl - url for an image for the recipient
 
 
 ## Installation
