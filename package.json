@@ -1,24 +1,29 @@
 {
   "name": "ember-chat",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember addon for a skeleton of a simple user to user chat",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "chat"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Conrad Lippert-Zajaczkowski",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/PrinceCornNM/ember-chat",
+  "homepage": "https://github.com/PrinceCornNM/ember-chat",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-emblem": "^0.9.0",
+    "ember-cli-sass": "^7.0.0",
+    "rsvp": "^4.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -39,6 +44,9 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.12.0-beta.1",
     "ember-welcome-page": "^2.0.2",
+    "eslint-plugin-ember": "^4.2.0",
+    "eslint-plugin-ember-suave": "^1.0.0",
+    "eslint-plugin-promise": "^3.5.0",
     "loader.js": "^4.1.0"
   },
   "engines": {

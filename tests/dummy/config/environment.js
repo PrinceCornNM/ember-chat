@@ -1,4 +1,4 @@
-/* eslint-env node */
+/* eslint-disable */
 
 module.exports = function(environment) {
   var ENV = {
