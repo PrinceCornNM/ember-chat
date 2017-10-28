@@ -18,6 +18,6 @@
             time
               = m.x
   .subm
-    = textarea value=messageText class="textarea" type="text" placeholder="Type here!" value=messageText
+    = textarea value=messageText placeholder="Type here!"
     .but value='send' click='sendMessage'
       | Submit

@@ -1,6 +1,6 @@
 {
   "name": "ember-chat",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember addon for a skeleton of a simple user to user chat",
   "keywords": [
     "ember-addon",
@@ -20,7 +20,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0",
+    "ember-cli-babel": "^6.8.2",
     "ember-cli-emblem": "^0.9.0",
     "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-sass": "^7.0.0",

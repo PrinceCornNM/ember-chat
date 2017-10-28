@@ -21,10 +21,15 @@ export default Component.extend({
       $('.cht').scrollTop($('.cht')[0].scrollHeight);
     });
   },
+  // sends message if they user presses enter in the text box without holding shift
+  keyDown(event) {
+    if (!event.shiftKey && event.keyCode === 13) {
+      this.send('sendMessage');
+    }
+  },
   actions: {
     sendMessage() {
       get(this, 'sendMessage')(get(this, 'messageText'));
     }
   }
 });
-
