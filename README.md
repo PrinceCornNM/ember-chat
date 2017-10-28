@@ -29,7 +29,6 @@ Messages should have at least 3 properties:
 * `git clone <repository-url>` this repository
 * `cd ember-chat`
 * `npm install`
-* `bower install`
 
 ## Running
 

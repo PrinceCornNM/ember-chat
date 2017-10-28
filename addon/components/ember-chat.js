@@ -1,14 +1,9 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { inject as service } from '@ember/service';
+import { observer, get } from '@ember/object';
+import { scheduleOnce } from '@ember/runloop';
+import $ from 'jquery';
 import layout from '../templates/components/ember-chat';
-
-const {
-  Component,
-  get,
-  inject: { service },
-  observer,
-  run: { scheduleOnce },
-  $
-} = Ember;
 
 export default Component.extend({
   layout,
