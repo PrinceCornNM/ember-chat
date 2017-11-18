@@ -1,6 +1,6 @@
 {
   "name": "ember-chat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ember addon for a skeleton of a simple user to user chat",
   "keywords": [
     "ember-addon",
