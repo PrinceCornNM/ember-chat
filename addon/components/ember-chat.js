@@ -1,6 +1,6 @@
 import Component from '@ember/component';
 import { inject as service } from '@ember/service';
-import { observer, get } from '@ember/object';
+import { observer, get, set } from '@ember/object';
 import { scheduleOnce } from '@ember/runloop';
 import $ from 'jquery';
 import layout from '../templates/components/ember-chat';
@@ -30,6 +30,7 @@ export default Component.extend({
   actions: {
     sendMessage() {
       get(this, 'sendMessage')(get(this, 'messageText'));
+      set(this, 'messageText', '');
     }
   }
 });
